@@ -3,6 +3,7 @@
 
 SmartSpenda is a full-featured Android personal budget tracking application designed to help users take control of their finances, set meaningful spending goals, and build better money habits — all in a fun, engaging way.
 
+https://youtu.be/CE3XP9Me4k0?si=Iy0QuuSyT4ffkHE4
 ---
 
 ## 📖 Table of Contents
