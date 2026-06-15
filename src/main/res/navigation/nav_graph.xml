@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment android:id="@+id/dashboardFragment" android:name="com.example.smartspenda.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" tools:layout="@layout/fragment_dashboard" />
+    <fragment android:id="@+id/historyFragment" android:name="com.example.smartspenda.ui.history.HistoryFragment"
+        android:label="History" tools:layout="@layout/fragment_history" />
+    <fragment android:id="@+id/budgetFragment" android:name="com.example.smartspenda.ui.budget.BudgetFragment"
+        android:label="Budget" tools:layout="@layout/fragment_budget" />
+    <fragment android:id="@+id/insightsFragment" android:name="com.example.smartspenda.ui.insights.InsightsFragment"
+        android:label="AI Insights" tools:layout="@layout/fragment_insights" />
+    <fragment android:id="@+id/profileFragment" android:name="com.example.smartspenda.ui.profile.ProfileFragment"
+        android:label="Profile" tools:layout="@layout/fragment_profile" />
+    <fragment android:id="@+id/categorySummaryFragment" android:name="com.example.smartspenda.ui.summary.CategorySummaryFragment"
+        android:label="Category Summary" tools:layout="@layout/fragment_category_summary" />
+</navigation>
